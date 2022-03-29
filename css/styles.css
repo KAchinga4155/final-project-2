@@ -1,36 +1,186 @@
 body{
-    background: rgb(233,98,98);
-    background: linear-gradient(4deg, rgba(233,98,98,1) 8%, rgba(193,84,108,1) 51%, rgba(159,72,117,1) 96%);
-    height:1000px;
+    background:black;
+    background: linear-gradient(4deg, rgba(0,0,0,1) 18%, rgba(45,20,33,1) 3d5, rgba(159,72,117,1) 96%);
+    height:100px;
     margin:auto;
     padding:auto;
     
 }
-.logo-image{
-    background-image: url("/img/pexels-anas-hinde-3249412.jpg");
+.img-bckground{
+    background-image: url("../img/pexels-kehn-hermano-3849167.jpg");
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size: 100% 100%;
-    width: 1910px;
-    height: 750px;
+    width: 1920px;
+    height: 500px;
+} 
+ header{
+    text-shadow: 2px 2px #f46808;
+    font-family: 'Rock 3D', cursive;
+    color:white;
+    text-align:center;
+    background-color:black;
+    /* position:sticky; */
+
+ } 
+.fa-unity{
+    color:goldenrod;
+} 
+.logo-image{ 
+    background-image: url("../img/pexels-kehn-hermano-3849167.jpg");
+    /*  */
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+    width: 1920px;
+    min-height:150vh;
+} 
+/* nav bar */
+ ul li {
+    text-align:center;
+    display:inline; 
+    
+    /* border:1px solid red; */
+    list-style-type: none;
+    color:black;
+    
+    
 }
- /* li a {
-     
-     text-decoration: none;
-     list-style-type:none;
- } */
- li a {
-     color:black;
-     background-color:#ffda6d;
-     border:2px solid red;
-     text-align: center;
-     float:left;
-     text-decoration: none;
-     list-style-type:none;
-     padding:15px;
-     margin:5px;
- }
-li a:hover{
-     color:red;
-     background-color:white;
- }
+
+nav{
+     /* border:1px solid red;  */
+    /* opacity:0.5; */
+     text-align:center;
+     padding-left:680px;
+     padding-right:700px;
+     padding-top:40px;
+     margin-left:15px;
+     /* background-color: white; */
+     width: 500px; 
+     height:90px;
+     position:sticky;
+     top:5px;
+} 
+    
+    
+ .nav-bar-css{
+    
+    border-radius:20px;
+    padding:50px;
+    background-color:black;
+    text-decoration: none;
+    color:white;
+    
+    /* font-size: 20px; */
+} 
+ .nav-bar-css:hover{
+    background:#f46808;
+    color:#e3ccbc;
+    border:2px solid black;
+}
+/* end of nav bar */
+
+
+/* section */
+section{
+    padding-left:250px;
+    float:left;
+    /* opacity: 0.5; */
+    /* background-color:white; */
+    /* border:5px solid red; */
+    color:white;
+    
+}
+.sf-knights{
+ text-shadow:2px 2px #f46808;
+ font-size:31px;
+ text-align:center;
+ font-family: 'Rock 3D', cursive;
+}
+
+/* .bay-bridge{ 
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+    width: 1920px;
+    height: 500px;
+}*/
+.video{
+    float:left;
+    margin-right:300px;
+
+}
+.video-2{
+    float:right;
+}
+
+/* form styles */
+input[type=text],input[type=email],textarea{
+    width:10%;
+    padding:12px;
+
+}
+label{
+    color:white;
+
+}
+/* article */
+.clear-fix{
+    /* overflow:auto; */
+    clear:both;
+    opacity:1.5;
+    background:black;
+    color:white;
+    font-size:30px;
+    font-family: 'Montserrat', sans-serif;
+}
+/* footer */
+footer{
+    /* border:2px solid red; */
+    height:200px;
+    text-align: center;
+    
+    /* margin:50px; */
+    
+}
+.footer-p{
+    color:white;
+    font-family: 'Rock 3D', cursive;
+    font-size:100px;
+    text-shadow: 2px 2px #f46808;
+}
+.fa-linkedin{
+    font-size:60px;
+    padding-right:50px;
+    margin:60px;
+    color:white;
+    background
+}
+.fa-instagram-square{
+    font-size:60px;
+    padding-right:50px;
+    margin:60px;
+    color:white;
+}
+
+.fa-facebook-square{
+    font-size:60px;
+    padding-right:50px;
+    margin:60px;
+    color:white;
+}
+
+.fa-twitter-square{
+    font-size:60px;
+    margin:60px;
+    color:white;
+}
+/* .love{
+    color:pink;
+    font-size:200px;
+} */
+
+.about-me{
+    font-size:30px;
+    color:white;
+} 
